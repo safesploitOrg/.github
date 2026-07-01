@@ -1,0 +1,42 @@
+---
+name: Bug report
+description: Report a reproducible issue
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What is broken?
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Provide clear reproduction steps.
+      placeholder: |
+        1. Run ...
+        2. Observe ...
+        3. Expected ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, shell, tool versions, repo path, etc.
+    validations:
+      required: false
+
+  - type: textarea
+    id: security
+    attributes:
+      label: Security note
+      description: Do not paste sensitive details (secrets, tokens, priv keys).
+    validations:
+      required: false
