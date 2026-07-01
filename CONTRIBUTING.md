@@ -20,6 +20,12 @@ Please ensure:
 - Scripts are safe, readable and documented
 - Security-sensitive examples use placeholders
 
+## AI-Assisted Contributions
+
+AI-assisted contributions are welcome when they improve clarity, correctness, security or reproducibility.
+
+If you use AI tools, follow [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md) as organisation-level guidance. Repository-specific documentation still takes precedence.
+
 ## Style
 
 Prefer:
