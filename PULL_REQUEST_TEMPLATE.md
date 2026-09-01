@@ -4,6 +4,7 @@ Describe what this pull request changes.
 
 ## Type of Change
 
+- [ ] Feature
 - [ ] Documentation
 - [ ] Script
 - [ ] CI/CD
@@ -22,3 +23,9 @@ Describe what this pull request changes.
 ## Security Considerations
 
 Describe any security impact, assumptions or risks.
+
+## Rollback
+
+Describe how the change can be reverted if required.
+
+If no specific rollback procedure is required, state `N/A`.
